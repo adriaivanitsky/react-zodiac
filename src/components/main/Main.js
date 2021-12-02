@@ -1,11 +1,12 @@
 import React from 'react'
 import ZodiacCard from '../../zodiac/ZodiacCard'
 import { zodiac } from '../../data'
+import './Main.css'
 
 export default function Main() {
     return (
-        <div>
+        <main>
             {zodiac.map(sign => <ZodiacCard key={sign.name} name={sign.name} date={sign.date} />)}
-        </div>
+        </main>
     )
 }
