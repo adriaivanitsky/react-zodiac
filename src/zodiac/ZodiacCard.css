@@ -1,0 +1,6 @@
+.zodiac-card {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 1px solid blanchedalmond;
+}
